@@ -1,0 +1,13 @@
+.checkbox-container {
+  .checkbox {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    column-gap: 10px;
+
+    &-label {
+      font-size: $text;
+      cursor: pointer;
+    }
+  }
+}
